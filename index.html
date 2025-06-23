@@ -16,6 +16,9 @@
         integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <!--aos animation  cdn link-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <style>
         body {
             font-family: "Montserrat", sans-serif;
@@ -43,7 +46,8 @@
             <!--logo-->
             <div class="space-x-2 flex justify-center items-center ">
                 <i class="fa-solid fa-feather text-[#3B81F6] text-2xl "></i>
-                <span class="text-[#2463EB] text-xl font-semibold mb-">BirdMart</span>
+                <span class="text-[#2463EB] text-xl font-semibold mb-" data-aos="flip-left"
+                    data-aos-easing="ease-out-cubic" data-aos-duration="2000">BirdMart</span>
             </div>
             <!--nav menu-->
             <div>
@@ -57,7 +61,7 @@
             </div>
 
             <!--button-->
-            <div>
+            <div data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 <button class="py-2 px-5 rounded-4xl bg-[#3B81F6] text-white">Login/Register</button>
 
             </div>
@@ -69,16 +73,19 @@
 
     <!--start hero section-->
 
-    <section class="hero-bg-img py-24 px-4 text-white">
+    <section class="hero-bg-img py-24 px-4 text-white" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000">
 
         <div class="text-center mt-32 space-y-5">
-            <h1 class="text-3xl font-semibold md:text-5xl">Find Your Perfect Feathered Companion</h1>
+            <h1 class="text-3xl font-semibold md:text-5xl" data-aos="fade-down-left">Find Your Perfect Feathered
+                Companion</h1>
             <p class="text-xl">The premier marketplace for buying and selling exotic birds with expert <br
                     class="hidden md:flex"> care advice and top-quality
                 services.</p>
         </div>
         <div class="flex justify-center items-center mt-10 space-x-4">
-            <button class="text-lg py-3 px-5 rounded-4xl bg-[#3B81F6] hover:bg-[#2463EB] font-medium">Explore
+            <button class="text-lg py-3 px-5 rounded-4xl bg-[#3B81F6] hover:bg-[#2463EB] font-medium"
+                data-aos="fade-down-left">Explore
                 Birds</button>
             <button
                 class="text-lg py-3 px-4 rounded-4xl bg-transparent hover:text-[#2463EB] hover:bg-white border-2 font-medium border-white">Sell
@@ -92,8 +99,9 @@
     <!--start Featured Birds section-->
     <section class="py-24 bg-[#F9FAFB]">
         <div class="text-center space-y-4">
-            <h1 class="text-3xl font-semibold">Featured Birds</h1>
-            <p class="text-[#4B5563]">Discover our handpicked collection of stunning birds from trusted breeders
+            <h1 class="text-3xl font-semibold" data-aos="flip-up">Featured Birds</h1>
+            <p class="text-[#4B5563]" data-aos="flip-up">Discover our handpicked collection of stunning birds from
+                trusted breeders
                 worldwide.</p>
         </div>
         <!--card container-->
@@ -104,22 +112,22 @@
             <div class=" shadow-md rounded-md overflow-hidden ">
                 <div class="h-56 overflow-hidden">
                     <img class=" w-full h-full object-fit object-center" src="image/photo-1552728089-57bdde30beb3.avif"
-                        alt="">
+                        alt="photo" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 </div>
                 <div class="p-6 space-y-4">
                     <div class="flex justify-between items-center">
-                        <p class="text-lg font-semibold">Blue and Gold<br class="hidden md:flex"> Macaw</p>
-                        <span class="text-[#3B81F6] font-semibold ">1,200</span>
+                        <p class="text-lg font-semibold" data-aos="fade-left">Blue and Gold<br class="hidden md:flex"> Macaw</p>
+                        <span class="text-[#3B81F6] font-semibold " data-aos="fade-left">1,200</span>
                     </div>
-                    <p class="text-[#4B5563] text-md">Friendly, hand-raised macaw<br> with vibrant plumage. Great
+                    <p class="text-[#4B5563] text-md" data-aos="fade-left">Friendly, hand-raised macaw<br> with vibrant plumage. Great
                         talker!</p>
 
                     <div class="flex justify-between">
                         <div class="flex flex-start space-x-2 mt-2">
                             <i class="fas fa-map-marker-alt text-[#4B5563] mt-1 text-sm"></i>
-                            <p class="text-[#4B5563] text-sm">New York</p>
+                            <p class="text-[#4B5563] text-sm" data-aos="fade-left">New York</p>
                         </div>
-                        <button class="bg-[#3B81F6] hover:bg-[#2463EB] rounded-4xl py-2 px-3 text-white text-sm">View
+                        <button class="bg-[#3B81F6] hover:bg-[#2463EB] rounded-4xl py-2 px-3 text-white text-sm" data-aos="fade-right">View
                             Details</button>
                     </div>
                 </div>
@@ -130,22 +138,23 @@
             <div class=" shadow-md rounded-md overflow-hidden ">
                 <div class="h-56 overflow-hidden">
                     <img class=" w-full h-full object-fit object-center"
-                        src="image/photo-1666218863086-329c0a7f2f7d.avif" alt="">
+                        src="image/photo-1666218863086-329c0a7f2f7d.avif" alt="photo" data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 </div>
                 <div class="p-6 space-y-4">
                     <div class="flex justify-between items-center">
-                        <p class="text-lg font-semibold">Sulphur-Crested<br class="hidden md:flex"> Cockatoo</p>
-                        <span class="text-[#3B81F6] font-semibold ">1,500</span>
+                        <p class="text-lg font-semibold" data-aos="fade-left">Sulphur-Crested<br class="hidden md:flex"> Cockatoo</p>
+                        <span class="text-[#3B81F6] font-semibold " data-aos="fade-left">1,500</span>
                     </div>
-                    <p class="text-[#4B5563] text-md">Playful and affectionate cockatoo with impressive yellow crest.
+                    <p class="text-[#4B5563] text-md" data-aos="fade-left">Playful and affectionate cockatoo with impressive yellow crest.
                     </p>
 
                     <div class="flex justify-between">
                         <div class="flex flex-start space-x-2 mt-2">
                             <i class="fas fa-map-marker-alt text-[#4B5563] mt-1 text-sm"></i>
-                            <p class="text-[#4B5563] text-sm"> Los Angeles</p>
+                            <p class="text-[#4B5563] text-sm" data-aos="fade-left"> Los Angeles</p>
                         </div>
-                        <button class="bg-[#3B81F6] hover:bg-[#2463EB] rounded-4xl py-2 px-3 text-white text-sm">View
+                        <button class="bg-[#3B81F6] hover:bg-[#2463EB] rounded-4xl py-2 px-3 text-white text-sm" data-aos="fade-right">View
                             Details</button>
                     </div>
                 </div>
@@ -158,21 +167,22 @@
             <div class=" shadow-md rounded-md overflow-hidden ">
                 <div class="h-56 overflow-hidden">
                     <img class=" w-full h-full object-fit object-center"
-                        src="image/istockphoto-2124787403-1024x1024.jpg" alt="">
+                        src="image/istockphoto-2124787403-1024x1024.jpg" alt="photo" data-aos="flip-left"
+                        data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 </div>
                 <div class="p-6 space-y-6">
                     <div class="flex justify-between items-center">
-                        <p class="text-lg font-semibold"> Los Angeles</p>
-                        <span class="text-[#3B81F6] font-semibold ">85</span>
+                        <p class="text-lg font-semibold"> Gold Macaw</p>
+                        <span class="text-[#3B81F6] font-semibold " data-aos="fade-left" >Gold Macaw>85</span>
                     </div>
-                    <p class="text-[#4B5563] text-md">Beautiful pair of breeding zebra finches with melodious songs.</p>
+                    <p class="text-[#4B5563] text-md" data-aos="fade-left">Beautiful pair of breeding zebra finches with melodious songs.</p>
 
                     <div class="flex justify-between">
                         <div class="flex flex-start space-x-2 mt-2">
                             <i class="fas fa-map-marker-alt text-[#4B5563] mt-1 text-sm"></i>
-                            <p class="text-[#4B5563] text-sm"> Chicago</p>
+                            <p class="text-[#4B5563] text-sm" data-aos="fade-left"> Chicago</p>
                         </div>
-                        <button class="bg-[#3B81F6] hover:bg-[#2463EB] rounded-4xl py-2 px-3 text-white text-sm">View
+                        <button class="bg-[#3B81F6] hover:bg-[#2463EB] rounded-4xl py-2 px-3 text-white text-sm" data-aos="fade-right">View
                             Details</button>
                     </div>
                 </div>
@@ -185,14 +195,15 @@
 
             <div class=" shadow-md rounded-md overflow-hidden ">
                 <div class="h-56 overflow-hidden">
-                    <img class=" w-full h-full object-fit object-center" src="image/images (2).jpeg" alt="">
+                    <img class=" w-full h-full object-fit object-center" src="image/images (2).jpeg" alt="photo"
+                        data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
                 </div>
                 <div class="p-6 space-y-6">
                     <div class="flex justify-between items-center">
-                        <p class="text-lg font-semibold">Yellow Canary</p>
-                        <span class="text-[#3B81F6] font-semibold ">120</span>
+                        <p class="text-lg font-semibold" data-aos="fade-left">Yellow Canary</p>
+                        <span class="text-[#3B81F6] font-semibold" data-aos="fade-left">120</span>
                     </div>
-                    <p class="text-[#4B5563] text-md">Vibrant male canary with exceptional singing ability. Perfect for
+                    <p class="text-[#4B5563] text-md" data-aos="fade-left">Vibrant male canary with exceptional singing ability. Perfect for
                         beginners.
 
                     </p>
@@ -200,9 +211,9 @@
                     <div class="flex justify-between">
                         <div class="flex flex-start space-x-2 mt-2">
                             <i class="fas fa-map-marker-alt text-[#4B5563] mt-1 text-sm"></i>
-                            <p class="text-[#4B5563] text-sm">Miami</p>
+                            <p class="text-[#4B5563] text-sm" data-aos="fade-left">Miami</p>
                         </div>
-                        <button class="bg-[#3B81F6] hover:bg-[#2463EB] rounded-4xl py-2 px-3 text-white text-sm">View
+                        <button class="bg-[#3B81F6] hover:bg-[#2463EB] rounded-4xl py-2 px-3 text-white text-sm" data-aos="fade-right">View
                             Details</button>
                     </div>
                 </div>
@@ -227,8 +238,9 @@
     <!--start our service section-->
     <section class="py-24">
         <div class="text-center space-y-4">
-            <h1 class="text-3xl font-semibold">Our Services</h1>
-            <p class="text-[#4B5563]">We provide comprehensive services to ensure the health and happiness of your
+            <h1 class="text-3xl font-semibold" data-aos="fade-left">Our Services</h1>
+            <p class="text-[#4B5563]" data-aos="flip-right">We provide comprehensive services to ensure the health and
+                happiness of your
                 feathered friends.</p>
         </div>
 
@@ -236,9 +248,10 @@
             <!--service 1-->
             <div class="p-8 text-center shadow-md rounded-md bg-[#F9FAFB] space-y-6 ">
                 <i class="fas fa-certificate text-blue-500 text-3xl"></i>
-                <h1 class="text-xl font-semibold">Verified Breeders
+                <h1 class="text-xl font-semibold" data-aos="fade-right">Verified Breeders
                 </h1>
-                <p class="text-[#4B5563]">All our breeders undergo strict verification process to ensure ethical
+                <p class="text-[#4B5563]" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">All our breeders undergo strict verification process to ensure ethical
                     breeding practices and healthy birds.</p>
 
             </div>
@@ -246,10 +259,11 @@
             <!--service 2-->
             <div class="p-8 text-center shadow-md rounded-md bg-[#F9FAFB]  space-y-6">
                 <i class="fas fa-truck text-blue-500 text-3xl"></i>
-                <h1 class="text-xl font-semibold">Safe Delivery
+                <h1 class="text-xl font-semibold" data-aos="fade-right">Safe Delivery
 
                 </h1>
-                <p class="text-[#4B5563]">We offer specialized bird transportation services with climate-controlled
+                <p class="text-[#4B5563]" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">We offer specialized bird transportation services with climate-controlled
                     vehicles and expert handlers.
 
                 </p>
@@ -258,10 +272,12 @@
             <!--service 3-->
             <div class="p-8 text-center shadow-md rounded-md bg-[#F9FAFB]  space-y-6">
                 <i class="fas fa-stethoscope text-blue-500 text-3xl"></i>
-                <h1 class="text-xl font-semibold">Veterinary Support
+                <h1 class="text-xl font-semibold" data-aos="fade-right">Veterinary Support
 
                 </h1>
-                <p class="text-[#4B5563]">Access to our network of avian veterinarians for health checks, consultations,
+                <p class="text-[#4B5563]" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                    data-aos-duration="2000">Access to our network of avian veterinarians for health checks,
+                    consultations,
                     and emergency care.</p>
 
 
@@ -278,18 +294,21 @@
             <div class="flex flex-col md:flex-row">
                 <div class="md:w-1/2 p-10 flex items-center">
                     <div class="text-white">
-                        <h3 class="text-2xl font-bold mb-4">Become a Verified Seller</h3>
-                        <p class="mb-6">Join our community of trusted bird sellers and reach thousands of potential
+                        <h3 class="text-2xl font-bold mb-4" data-aos="fade-left">Become a Verified Seller</h3>
+                        <p class="mb-6" data-aos="fade-right">Join our community of trusted bird sellers and reach
+                            thousands of potential
                             buyers worldwide. Enjoy premium features and dedicated support.</p>
                         <button
-                            class="bg-white text-blue-500 hover:bg-gray-100 px-6 py-3 rounded-full font-medium shadow-md transition">
+                            class="bg-white text-blue-500 hover:bg-gray-100 px-6 py-3 rounded-full font-medium shadow-md transition"
+                            data-aos="fade-left">
                             Apply Now
                         </button>
                     </div>
                 </div>
                 <div class="md:w-1/2">
                     <img src="image/photo-1555169062-013468b47731.avif" alt="Bird Seller"
-                        class="w-full h-full object-cover">
+                        class="w-full h-full object-cover" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                        data-aos-duration="2000">
                 </div>
             </div>
         </div>
@@ -307,24 +326,27 @@
     <!-- start Our Customers Say-->
     <section class="py-24 bg-[#F9FAFB]">
         <div class="text-center space-y-4">
-            <h1 class="text-3xl font-semibold">Featured Birds</h1>
-            <p class="text-[#4B5563]">Discover our handpicked collection of stunning birds from trusted breeders
+            <h1 class="text-3xl font-semibold" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">Featured Birds</h1>
+            <p class="text-[#4B5563]" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">
+                Discover our handpicked collection of stunning birds from trusted breeders
                 worldwide.</p>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-12 p-6 text-[#374151] mt-10 ">
             <!--customer 1-->
             <div class="p-6 shadow-md bg-white rounded-md space-y-4">
                 <div class="flex  items-start space-x-1 ">
-                    <div class="text-yellow-400 flex">
+                    <div class="text-yellow-400 flex" data-aos="zoom-in-down">
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <span class="">5.0</span>
+                    <span class="" data-aos="zoom-in-down">5.0</span>
                 </div>
-                <p class="text-md">"I purchased a Quaker parrot through BirdMart and couldn't be happier! The seller was
+                <p class="text-md" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">"I
+                    purchased a Quaker parrot through BirdMart and couldn't be happier! The seller was
                     knowledgeable,
                     and the bird arrived healthy and well-socialized. The post-purchase support has been exceptional!"
                 </p>
@@ -333,8 +355,8 @@
                     <img src="image/photo-1500648767791-00dcc994a43e.avif" alt="photo"
                         class="w-12 h-12 object-cover rounded-full">
                     <div class="flex flex-col text-sm">
-                        <h1 class="font-semibold">sndp bag</h1>
-                        <p>Professional Breeder</p>
+                        <h1 class="font-semibold" data-aos="zoom-in-right">sndp bag</h1>
+                        <p data-aos="zoom-in-left">Professional Breeder</p>
                     </div>
                 </div>
             </div>
@@ -350,17 +372,19 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star"></i>
                     </div>
-                    <span>5.0</span>
+                    <span data-aos="zoom-in-right">5.0</span>
+
                 </div>
-                <p> "As a breeder, I've tried several platforms to sell my canaries, but BirdMart stands out for its
+                <p data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"> "As a breeder, I've
+                    tried several platforms to sell my canaries, but BirdMart stands out for its
                     professionalism and dedicated customer base. My birds find loving homes quickly!"</p>
 
                 <div class="flex items-start space-x-3">
                     <img src="image/photo-1534528741775-53994a69daeb.avif" alt="photo"
                         class="w-12 h-12 object-cover rounded-full">
                     <div class="flex flex-col text-sm">
-                        <h1 class="font-semibold">Sonali Halder</h1>
-                        <p>First-time Bird Owner</p>
+                        <h1 class="font-semibold" data-aos="zoom-in-right">Sonali Halder</h1>
+                        <p data-aos="zoom-in-left">First-time Bird Owner</p>
                     </div>
                 </div>
 
@@ -377,9 +401,10 @@
                         <i class="fas fa-star"></i>
                         <i class="fas fa-star-half-alt"></i>
                     </div>
-                    <span>4.5</span>
+                    <span data-aos="zoom-in-right">4.5</span>
                 </div>
-                <p> "The expert advice I received before purchasing my first cockatiel was invaluable. The seller took
+                <p data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000"> "The expert advice I
+                    received before purchasing my first cockatiel was invaluable. The seller took
                     time
                     to educate me on proper care, and now my bird is thriving. Highly recommend!"</p>
 
@@ -387,8 +412,8 @@
                     <img src="image/photo-1494790108377-be9c29b29330.avif" alt="photo"
                         class="w-12 h-12 object-cover rounded-full">
                     <div class="flex flex-col text-sm">
-                        <h1 class="font-semibold">Riya Hoodati</h1>
-                        <p>Bird Owner, 2 years</p>
+                        <h1 class="font-semibold" data-aos="zoom-in-left">Riya Hoodati</h1>
+                        <p data-aos="zoom-in-right">Bird Owner, 2 years</p>
                     </div>
                 </div>
             </div>
@@ -403,35 +428,38 @@
             <div class="max-w-5xl mx-auto">
                 <div class="flex flex-col md:flex-row rounded-xl overflow-hidden shadow-xl">
                     <div class=" md:w-1/2 bg-blue-500 text-white p-10 ">
-                        <h2 class="text-3xl font-bold mb-6">Get In Touch</h2>
-                        <p class="mb-8">Have questions about our birds or services? We're here to help! Fill out the
+                        <h2 class="text-3xl font-bold mb-6" data-aos="zoom-in-right">Get In Touch</h2>
+                        <p class="mb-8" data-aos="zoom-in-left">Have questions about our birds or services? We're here
+                            to help! Fill out the
                             form and we'll get back to you shortly.</p>
 
-                        <div class="mb-6 flex items-center">
+                        <div class="mb-6 flex items-center" data-aos="zoom-in-right">
                             <div class="bg-blue-400 p-3 rounded-full mr-4">
                                 <i class="fas fa-map-marker-alt"></i>
                             </div>
                             <span>Amtala, Dakshin Gouripur, 743503</span>
                         </div>
 
-                        <div class="mb-6 flex items-center">
+                        <div class="mb-6 flex items-center" data-aos="zoom-in-left">
                             <div class="bg-blue-400 p-3 rounded-full mr-4">
                                 <i class="fas fa-phone"></i>
                             </div>
                             <span>+91 7980048890</span>
                         </div>
 
-                        <div class="mb-6 flex items-center">
+                        <div class="mb-6 flex items-center" data-aos="zoom-in-right">
                             <div class="bg-blue-400 p-3 rounded-full mr-4">
                                 <i class="fas fa-envelope"></i>
                             </div>
                             <span>sndpbagg@gmail.com</span>
                         </div>
 
-                        <div class="flex space-x-4 mt-10">
+                        <div class="flex space-x-4 mt-10" data-aos="fade-right">
+
                             <a href="#" class="bg-white text-blue-500 p-4 rounded-full hover:bg-blue-100">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
+
                             <a href="#" class="bg-white text-blue-500 p-4 rounded-full hover:bg-blue-100">
                                 <i class="fab fa-twitter"></i>
                             </a>
@@ -444,7 +472,8 @@
                         </div>
                     </div>
 
-                    <div class="bg-gray-50 p-10 md:w-1/2">
+                    <div class="bg-gray-50 p-10 md:w-1/2" data-aos="fade-right" data-aos-offset="300"
+                        data-aos-easing="ease-in-sine">
                         <form class="space-y-5">
                             <div class="mt-4">
                                 <label class=" text-gray-700 " for="name">Your Name</label>
@@ -487,7 +516,8 @@
     <!--start footer section-->
     <footer class="w-full bg-[#1F2937] py-10 px-10 text-white ">
         <div class="grid grid-cols-1 md:grid-cold-2 lg:grid-cols-4 gap-10">
-            <div class="flex flex-col space-y-4">
+            <div class="flex flex-col space-y-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                 <div class="space-x-2 flex  items-center ">
                     <i class="fa-solid fa-feather text-[#3B81F6] text-2xl "></i>
                     <span class="text-white text-xl font-semibold mb-">BirdMart</span>
@@ -507,32 +537,35 @@
             </div>
 
             <!--Queck Links-->
-            <div class="flex flex-col text-gray-300 space-y-2">
+            <div class="flex flex-col text-gray-300 space-y-2" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                 <h1 class="text-white font-semibold font-lg ">Quick Links</h1>
                 <ul class=" space-y-3 mt-2">
-                    <li class="text-gray-400"><a href="#">About Us</a></li>
-                    <li class="text-gray-400"><a href="#">Bird Care Guides</a></li>
-                    <li class="text-gray-400"><a href="#">Seller Requirements</a></li>
-                    <li class="text-gray-400"><a href="#">Success Stories</a></li>
-                    <li class="text-gray-400"><a href="#">FAQs</a></li>
+                    <li class="text-gray-400 hover:underline"><a href="#">About Us</a></li>
+                    <li class="text-gray-400 hover:underline"><a href="#">Bird Care Guides</a></li>
+                    <li class="text-gray-400 hover:underline"><a href="#">Seller Requirements</a></li>
+                    <li class="text-gray-400 hover:underline"><a href="#">Success Stories</a></li>
+                    <li class="text-gray-400 hover:underline"><a href="#">FAQs</a></li>
                 </ul>
             </div>
 
             <!--Practice Areas-->
-            <div class="flex flex-col text-gray-300">
+            <div class="flex flex-col text-gray-300" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                 <h1 class="text-white font-semibold font-lg ">Bird Categories</h1>
                 <ul class="space-y-3 mt-3">
-                    <li class="text-gray-400"><a href="#">Parrots & Macaws</a></li>
-                    <li class="text-gray-400"><a href="#">Finches & Canaries</a></li>
-                    <li class="text-gray-400"><a href="#">Cockatiels & Budgies</a></li>
-                    <li class="text-gray-400"><a href="#">Doves & Pigeons</a></li>
-                    <li class="text-gray-400"><a href="#">Exotic Species</a></li>
+                    <li class="text-gray-400 hover:underline"><a href="#">Parrots & Macaws</a></li>
+                    <li class="text-gray-400 hover:underline"><a href="#">Finches & Canaries</a></li>
+                    <li class="text-gray-400 hover:underline"><a href="#">Cockatiels & Budgies</a></li>
+                    <li class="text-gray-400 hover:underline"><a href="#">Doves & Pigeons</a></li>
+                    <li class="text-gray-400 hover:underline"><a href="#">Exotic Species</a></li>
                 </ul>
 
             </div>
 
             <!--newslatter-->
-            <div class="flex flex-col text-gray-300 space-y-4">
+            <div class="flex flex-col text-gray-300 space-y-4" data-aos="flip-left" data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000">
                 <h1 class="text-white font-semibold font-lg">Newsletter</h1>
                 <p class="text-gray-400">Subscribe to our newsletter for bird care tips and exclusive offers.</p>
                 <div class="flex mt-2">
@@ -545,7 +578,8 @@
             </div>
         </div>
         <!--© 2025 LegalCounsel. All rights reserved.-->
-        <div class=" flex justify-between items-center py-6 border-t border-[#4B5563] mt-6 text-gray-300 ">
+        <div class=" flex justify-between items-center py-6 border-t border-[#4B5563] mt-6 text-gray-300"
+            >
             <p class="text-gray-400">© 2025 LegalCounsel. All rights reserved.</p>
             <div class="flex text-gray-400 space-x-4">
                 <a class="text-gray-400 hover:text-white" href="#">Privacy Policy
@@ -568,7 +602,10 @@
 
 
 
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 
 </body>
 
